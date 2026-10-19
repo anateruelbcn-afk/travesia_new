@@ -1,0 +1,82 @@
+LA TRAVESÍA · 30 ANIVERSARIO · EL JUEGO
+=====================================
+
+CÓMO JUGAR — sin instalar nada
+
+1. Descomprime el ZIP completo. No abras index.html directamente desde dentro del ZIP.
+2. Abre la carpeta "LA_TRAVESIA_30_ANIVERSARIO_PROYECTO_NUEVO".
+3. Haz doble clic sobre index.html. Se abre en Chrome (u otro navegador moderno).
+4. Pulsa EMBARCAR. Completa el reto para avanzar a cada etapa.
+
+No necesitas Internet, registrarte ni conectar GitHub o Netlify.
+Las rutas de los medios son relativas; conserva las subcarpetas css, js y recursos junto a index.html.
+
+ARCHIVOS
+- index.html ............... La página para jugar.
+- editar.html .............. Editor visual local y opcional.
+- css/estilos.css ......... Colores, diseño y adaptación a móvil.
+- js/contenido.js ......... Narración, preguntas, opciones, respuestas, citas, avatares y recursos.
+- js/juego.js ............. Lógica de preguntas, puntos, navegación y ventanas emergentes.
+- js/editor.js ............ Lógica del editor visual local.
+- recursos/ ............... Fotografías, avatares, postales, mapas y vídeos (archivos separados).
+- documentacion/ .......... Cronología y asociación de recursos.
+
+CÓMO EDITAR
+1. Abre editar.html en Chrome.
+2. Selecciona la etapa, cambia la narración o una pregunta y pulsa "Aplicar cambios".
+3. Pulsa "Descargar contenido.js".
+4. Ve a Descargas, copia el archivo contenido.js descargado y reemplaza el archivo
+   que está en la subcarpeta js de este proyecto.
+5. Reabre index.html (o recarga la página) para jugar con los cambios.
+
+El editor es local: no modifica archivos en GitHub ni publica automáticamente en Netlify.
+El editor solo modifica narraciones, preguntas y sus alternativas. Los originales del
+cuaderno se mantienen aparte y están protegidos del editor visual.
+
+CÓMO VER LOS VÍDEOS
+- Fotografías con la etiqueta "FOTO QUE COBRA VIDA": en ordenador, pasa el ratón
+  por encima; en móvil, toca la foto. Al pulsar, se abre el vídeo con controles.
+- Los vídeos también aparecen como fichas "VÍDEO FICCIONADO".
+- Los vídeos son recreaciones; no grabaciones históricas.
+
+CRITERIOS DEL PROYECTO
+- Orden histórico: Ibiza (07/12/1996) → Gibraltar → Lanzarote → Gran Canaria →
+  Atlántico → Antigua (23/01/1997).
+- 27 etapas: 20 retos de tres respuestas, 4 dilemas, 2 preguntas abiertas, 1
+  esquema de velero con etiquetas clicables.
+- Los relatos son adaptaciones breves y se distinguen de los textos originales
+  consultables con "Abrir la bitácora".
+- Los dilemas del macaco, de la llamada al jefe y de la comida son FICCIÓN.
+  La salida fallida del 15/12/1996 ocurrió realmente; la elección alternativa es imaginada.
+- Algunas cartas y mapas históricos son imágenes escaneadas del PDF original;
+  los mapas no afirman representar la derrota exacta del velero.
+- Faltan imágenes específicas para ciertas escenas ficcionadas; se muestran
+  marcadores honestos, sin inventar una fotografía histórica.
+- La portada predeterminada utiliza "Portada 01.jpg" del ZIP del usuario;
+  "Portada 02.jpg" se conserva como alternativa. Para cambiarla, abre
+  css/estilos.css y reemplaza 'Portada 01.jpg' por 'Portada 02.jpg'.
+
+PUNTUACIÓN Y PROGRESO
+- Puntos por aciertos; las respuestas equivocadas muestran solución o pista.
+- La ruta y el avance quedan guardados localmente si el navegador lo permite.
+- Las decisiones que causan un final alternativo permiten volver y reintentar.
+- La pantalla final tiene botones para reiniciar y regresar al inicio.
+
+PUBLICACIÓN
+Sube la carpeta completa (con index.html y todas sus subcarpetas) a tu servicio
+web. También puedes subir los archivos a un repositorio GitHub conectado a Netlify.
+Este ZIP no se ha publicado ni ha modificado la versión antigua del juego.
+
+FUENTES
+- «01. BITACORA.pdf» (40 páginas escaneadas) · Miguel Bonnin Costa.
+- «01. Instrucciones para generar el juego interactivo.docx» (5 páginas).
+- «CARPETA FOTOS.zip» (avatares, fotografías, postales, videos, pronósticos).
+Las citas se han incorporado a js/contenido.js y se abren desde la interfaz.
+
+
+CORRECCIONES DE ESTA ENTREGA:
+- Pantalla de prólogo separada de pantalla de presentación de los cuatro tripulantes.
+- Fotos y cartas ampliadas al ancho completo al pulsar (para las verticales, desplazarse hacia abajo). Opción «Ajustar a pantalla».
+- Botón «Abrir la bitácora» legible y sin subtítulo minúsculo.
+- Las respuestas A/B/C incorrectas NO revelan la correcta y permiten nuevos intentos. Las opciones falladas quedan marcadas, sin bloquear el avance cuando se acierta.
+- 10 puntos al primer acierto y 5 puntos si hubo intentos fallidos.

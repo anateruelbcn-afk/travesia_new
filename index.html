@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#092238">
+  <meta name="description" content="La Travesía · 30 aniversario. Una aventura interactiva de Ibiza a Antigua, basada en la bitácora de Miguel Bonnin Costa.">
+  <title>La Travesía · 30 aniversario · El juego</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div id="app"><p class="loading" role="status">Preparando La Travesía…</p></div>
+  <dialog id="visor" class="visor" aria-labelledby="visor-titulo">
+    <div class="visor-barra">
+      <strong id="visor-titulo">Cuaderno de bitácora</strong>
+      <button type="button" id="cerrar-visor" class="visor-cerrar" aria-label="Cerrar ventana">✕ <span>Cerrar</span></button>
+    </div>
+    <div id="visor-cuerpo" class="visor-cuerpo"></div>
+  </dialog>
+  <script src="js/contenido.js"></script>
+  <script src="js/juego.js"></script>
+</body>
+</html>
